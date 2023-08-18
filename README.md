@@ -116,7 +116,13 @@ my_function_return_value
 When the `my_function()` function is called, you'll see the output from the
 `print()` function in the terminal, followed by the return value. The return
 value, `2`, is then saved to the variable `my_function_return_value`.
+Calculate the time complexity for the following code using Big O notation:
 
+function logLetter(string) {
+  for (const letter of string) {
+    console.log(letter);
+  }
+}
 > You might see some functions referred to as **methods**. Methods are a
 > special type of function that belong to **objects**. They often act upon
 > those objects when called- remember `list.sort()` and `dict.get()`?
